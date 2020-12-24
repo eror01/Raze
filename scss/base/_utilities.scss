@@ -2,4 +2,10 @@
 $color-primary: #44d62c;
 $font-primary: #888;
 $font-secondary: #333;
-$white: #fff;
+$white: rgb(255, 255, 255);
+
+//Margin
+
+.m-1 {
+    margin: 0 1rem;
+}

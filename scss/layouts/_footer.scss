@@ -1,0 +1,38 @@
+
+
+.footer {
+    background-color: #222;
+    overflow: hidden;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+    &__container {
+        color: $white;
+        height: 15rem;
+    }
+
+    &__text{
+     color: $white;
+     font-size: 2rem;
+     padding: 2rem;
+    }
+
+    i{
+        color: #333;
+
+        &:hover{
+            color: $white;
+        }
+    }
+
+    &__icons{
+        color: #fff;
+        padding-left: 2rem;
+    }
+
+}

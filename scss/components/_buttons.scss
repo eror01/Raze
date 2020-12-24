@@ -1,9 +1,16 @@
 .btn {
     font-size: 1.5rem;
     text-decoration: none;
-    color: $white;
+    color: $color-primary;
+    transition: all .2s;
+
+    &:hover {
+        color: $white;
+    }
 
     i{
         color: $color-primary;
+
     }
+    
 }
