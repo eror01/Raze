@@ -1,0 +1,27 @@
+.main {
+    background-image:url(/dist/img/favicon-1.jpg) ;
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    &__heading{
+        font-size: 2.6rem;
+        text-transform: uppercase;
+        color: $white;
+        text-align: center;
+        margin-top: 11rem;
+        letter-spacing: 4px;
+    }
+
+    &__heading-sub{
+        font-size: 1.8rem;
+        color: $white;
+        text-align: center;
+    }
+
+    &__container {
+        text-align: center;
+    }
+}
