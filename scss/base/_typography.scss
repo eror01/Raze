@@ -1,0 +1,84 @@
+.about {
+
+    &__heading {
+        text-align: center;
+        font-size: 3rem;
+        color: $color-primary;
+        letter-spacing: .4rem;
+    }
+
+    &__text {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.heading__primary {
+    text-align: center;
+    font-size: 3rem;
+    color: #999;
+}
+
+.showcase{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    &__img {
+        width: 33.333%;
+        background: #222;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    img{
+        width: 100%;
+
+    }
+
+    &__content {
+        font-size: 2rem;
+
+        .tittle {
+            color: #999;
+            font-size: 3rem;
+            text-align: center;
+        }
+    }
+
+    &__text {
+        color: #999;
+        text-align: center;
+    }
+
+    .socials {
+        text-align: center;
+        cursor: pointer;
+
+        a:link,
+        a:visited {
+            color: #444;
+        }
+
+        i{
+            padding: 1rem 2rem;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    .name {
+        color: #999;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+
+
+

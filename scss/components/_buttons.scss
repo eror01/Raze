@@ -14,3 +14,10 @@
     }
     
 }
+
+.btn-socials {
+    transition: .2s;
+    &:hover {
+        transform: translateY(-.5%);
+    }
+}

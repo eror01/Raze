@@ -1,12 +1,12 @@
 .footer {
     background-color: #222;
-    overflow: hidden;
     width: 100%;
-    height: 15%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    bottom: 0;
 
     &__container {
         color: $white;
