@@ -6,7 +6,7 @@ main{
 h1{
     text-align: center;
     color: $color-primary;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 2rem;
     letter-spacing: .5rem;
 }
@@ -38,7 +38,7 @@ h1{
         text-align: center;
     }
 }
-//Grid
+//Flex
 .flex {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -74,7 +74,7 @@ h1{
         max-height: 100%;
 
         &--left{
-            padding-left: 4rem;
+            padding-left: 6rem;
         }
     }
 
