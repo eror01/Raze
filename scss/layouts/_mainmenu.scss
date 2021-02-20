@@ -12,12 +12,11 @@ h1{
 }
 
 .main {
-    background-image: url(../img/favicon-1.jpg);
+    background: url(../img/favicon-1.jpg);
     height: 95vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
 
     &__heading{
         font-size: 2.6rem;
